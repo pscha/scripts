@@ -1,0 +1,12 @@
+#!/bin/sh
+
+STATE=$(xinput --list-props 11|grep "Enabled" |grep -o ".$")  
+NUMBER=$(xinput --list-props 11|grep "Enabled" |grep -o "[0-9][0-9][0-9]")  
+
+if [ "$STATE" == "1" ]; then
+	xinput set-prop 11 $NUMBER 0
+fi
+
+if [ "$STATE" == "0" ]; then
+	xinput set-prop 11 $NUMBER 1
+fi
