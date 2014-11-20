@@ -23,7 +23,7 @@ EXTERN="VGA1"
 PrintUsage(){
 cat << EOI
 Usage:
- bildschirm < modes | intern | extern | clone | extend >
+ bildschirm < modes | intern | extern | clone | extendl | extendr | extendu >
 
 Optionen:
   modes    Moegliche Modes ausgeben
