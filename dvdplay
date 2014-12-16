@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mplayer DVDNAV:// -dvd-device /dev/sr0 -fs -zoom -quiet -slang off
