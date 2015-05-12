@@ -18,7 +18,7 @@ It adds output to an external output.
 dvdplay
 -------
 a small script to play dvd's with mplayer (as I'm lazy and don't want to type in
-all the options all of the time.
+all the options all of the time.)
 
 alert.sh
 --------
