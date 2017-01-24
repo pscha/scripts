@@ -1,0 +1,21 @@
+#based on gruvbox
+#increased red values
+if [ "$TERM" = "linux" ]; then
+    echo -en "\e]P0382828" # S_base02
+    echo -en "\e]P1dc241d" # S_red
+    echo -en "\e]P2a8971a" # S_green
+    echo -en "\e]P3e79921" # S_yellow
+    echo -en "\e]P4558588" # S_blue
+    echo -en "\e]P5262862" # S_magenta
+    echo -en "\e]P6789d6a" # S_cyan
+    echo -en "\e]P7b89984" # S_base2
+    echo -en "\e]P8a28374" # S_base03
+    echo -en "\e]P9ff4934" # S_orange
+    echo -en "\e]PAc8bb26" # S_base01
+    echo -en "\e]PBffbd2f" # S_base00
+    echo -en "\e]PC93a598" # S_base0
+    echo -en "\e]PDe3869b" # S_violet
+    echo -en "\e]PE9ec07c" # S_base1
+    echo -en "\e]PFfbdbb2" # S_base3
+    clear # against bg artifacts
+fi

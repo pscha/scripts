@@ -1,0 +1,19 @@
+if [ "$TERM" = "linux" ]; then
+    echo -en "\e]P0f7f7f7" # S_base3
+    echo -en "\e]P1db2d20" # S_red
+    echo -en "\e]P201a252" # S_green
+    echo -en "\e]P3fded02" # S_yellow
+    echo -en "\e]P401a0e4" # S_blue
+    echo -en "\e]P5a16a94" # S_magenta
+    echo -en "\e]P6b5e4f4" # S_cyan
+    echo -en "\e]P75c5855" # S_base03
+    echo -en "\e]P8a5a2a2" # S_base2
+    echo -en "\e]P9e8bbd0" # S_orange
+    echo -en "\e]PA3a3432" # S_base01
+    echo -en "\e]PB4a4543" # S_base00
+    echo -en "\e]PC807d7c" # S_base0
+    echo -en "\e]PDd6d5d4" # S_violet
+    echo -en "\e]PEcdab53" # S_base1
+    echo -en "\e]PF090300" # S_base02
+    clear # against bg artifacts
+fi

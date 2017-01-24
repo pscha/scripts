@@ -1,0 +1,19 @@
+if [ "$TERM" = "linux" ]; then
+	echo -en "\e]P01e1e1e"
+	echo -en "\e]P1cf3f61"
+	echo -en "\e]P27bb75b"
+	echo -en "\e]P3e9b32a"
+	echo -en "\e]P44c9ad4"
+	echo -en "\e]P5a57fc4"
+	echo -en "\e]P6389aad"
+	echo -en "\e]P7f7f6ec"
+	echo -en "\e]P8595b59"
+	echo -en "\e]P9d18fa6"
+	echo -en "\e]PA767f2c"
+	echo -en "\e]PB78592f"
+	echo -en "\e]PC135979"
+	echo -en "\e]PD604291"
+	echo -en "\e]PE76bbca"
+	echo -en "\e]PFb2b5ae"
+	clear
+fi
