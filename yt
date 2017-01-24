@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+QUERY=$(echo -n "$@" | sed "s/\ /%20/g")
+curl -s "https://www.youtube.com/results?search_query=$QUERY" | grep -P -o "<a href=\"\/watch.*?>" | sed "s/.*href=\"\(\/watch[^\"]*\).*title=\"\([^\"]*\).*/https:\/\/youtube.com\1 | \2/"
